@@ -40,5 +40,16 @@ namespace CadastroDeContatos.Repositorio
 
             return contatoDb;
         }
+
+        public bool Apagar(int id)
+        {
+            ContatoModel contatoDb = ListarPorId(id);
+            if (contatoDb == null) throw new Exception("Houve um erro na deleção do Contato");
+
+            _bancoContext.Contatos.Remove(contatoDb);
+            _bancoContext.SaveChanges();
+
+            return true;
+        }
     }
 }
