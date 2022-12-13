@@ -1,4 +1,13 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\CadastroDeContatos",
+    "\\CadastroDeContatos\\Controllers",
+    "\\CadastroDeContatos\\Models",
+    "\\CadastroDeContatos\\Views",
+    "\\CadastroDeContatos\\Views\\Home",
+    "\\CadastroDeContatos\\Views\\Shared"
+  ],
+  "SelectedNode": "\\CadastroDeContatos\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

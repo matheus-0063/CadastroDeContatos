@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\Source\\Repos\\matheus-0063\\CadastroDeContatos\\CadastroDeContatos\\CadastroDeContatos.csproj": {}
+    "C:\\Users\\mathe\\source\\repos\\matheus-0063\\CadastroDeContatos\\CadastroDeContatos\\CadastroDeContatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\Source\\Repos\\matheus-0063\\CadastroDeContatos\\CadastroDeContatos\\CadastroDeContatos.csproj": {
+    "C:\\Users\\mathe\\source\\repos\\matheus-0063\\CadastroDeContatos\\CadastroDeContatos\\CadastroDeContatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\Source\\Repos\\matheus-0063\\CadastroDeContatos\\CadastroDeContatos\\CadastroDeContatos.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\source\\repos\\matheus-0063\\CadastroDeContatos\\CadastroDeContatos\\CadastroDeContatos.csproj",
         "projectName": "CadastroDeContatos",
-        "projectPath": "C:\\Users\\mathe\\Source\\Repos\\matheus-0063\\CadastroDeContatos\\CadastroDeContatos\\CadastroDeContatos.csproj",
+        "projectPath": "C:\\Users\\mathe\\source\\repos\\matheus-0063\\CadastroDeContatos\\CadastroDeContatos\\CadastroDeContatos.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\Source\\Repos\\matheus-0063\\CadastroDeContatos\\CadastroDeContatos\\obj\\",
+        "outputPath": "C:\\Users\\mathe\\source\\repos\\matheus-0063\\CadastroDeContatos\\CadastroDeContatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
