@@ -1,5 +1,6 @@
 using CadastroDeContatos.Data;
 using CadastroDeContatos.Repositorio;
+using CadastroDeUsuarios.Repositorio;
 using Microsoft.EntityFrameworkCore;
 
 namespace CadastroDeContatos
@@ -15,7 +16,8 @@ namespace CadastroDeContatos
             builder.Services.AddDbContext<BancoContext>(options =>
                 options.UseSqlServer(connectionString));
             builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
-            
+            builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+
 
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages();
@@ -41,7 +43,7 @@ namespace CadastroDeContatos
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Login}/{action=Index}/{id?}");
 
             app.Run();
         }

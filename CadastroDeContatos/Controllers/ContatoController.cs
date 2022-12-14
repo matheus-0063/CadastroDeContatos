@@ -75,7 +75,7 @@ namespace CadastroDeContatos.Controllers
             }
         }
         [HttpPost]
-        public IActionResult Alterar(ContatoModel contato)
+        public IActionResult Editar(ContatoModel contato)
         {
             try
             {

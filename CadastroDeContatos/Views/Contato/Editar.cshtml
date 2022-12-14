@@ -7,7 +7,7 @@
     <h1 class="display-4">Editar Contato</h1>
 </div>
 
-<form asp-controller="Contato" asp-action="Alterar" method="post">
+<form asp-controller="Contato" asp-action="Editar" method="post">
 
     <input type="hidden" asp-for="Id" />
     <div class="form-group">
@@ -26,6 +26,6 @@
         @Html.ValidationMessageFor(x => x.Celular)
     </div>
     <br />
-    <button type="submit" class="btn btn-primary">Alterar</button>
+    <button type="submit" class="btn btn-primary">Editar</button>
     <a class="btn btn-secondary" asp-controller="Contato" asp-action="Index" role="button"> Voltar</a>
 </form>
