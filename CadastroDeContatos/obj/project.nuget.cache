@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gkxawVB58viFOdSD0Hng6Z3ymEt28FqUevQsnNwUsbN6z5G64tnY2/Hb3CqFk4lzVFRIflxuLig6D1vdA/x0IA==",
+  "dgSpecHash": "Jg3qmlah/OW9PNvgqgERZPuTH1KSz9ULLSxUu30qEJBF0dxy62tIj7N2UP9injn4PQZCsi4U/Xp9Igz9JIBffg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mathe\\source\\repos\\matheus-0063\\CadastroDeContatos\\CadastroDeContatos\\CadastroDeContatos.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
