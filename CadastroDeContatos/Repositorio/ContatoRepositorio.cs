@@ -1,5 +1,6 @@
 ﻿using CadastroDeContatos.Data;
 using CadastroDeContatos.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CadastroDeContatos.Repositorio
 {
@@ -10,11 +11,11 @@ namespace CadastroDeContatos.Repositorio
         {
             _bancoContext = bancoContext;
         }
-        public List<ContatoModel> BuscarTodos()
+        public async Task<List<ContatoModel>> BuscarTodos()
         {
-            return _bancoContext.Contatos.ToList();
+            return await _bancoContext.Contatos.ToListAsync();
         }
-        public ContatoModel Adicionar(ContatoModel contato)
+        public async Task<ContatoModel> Adicionar(ContatoModel contato)
         {
             //gravar no banco de dados
             _bancoContext.Contatos.Add(contato);
